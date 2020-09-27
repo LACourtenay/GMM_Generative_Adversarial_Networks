@@ -1,0 +1,2 @@
+# GMM_Generative_Adversarial_Networks
+Generative Adversarial Networks for Geometric Morphometric Data Augmentation
