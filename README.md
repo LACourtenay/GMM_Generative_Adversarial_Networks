@@ -37,7 +37,7 @@ Please cite these codes as:
 --------------------------------------------------------
 
 This code was designed and prepared for the study by:
-<b> Courtenay (Submitted to Evolutionary Anthropology) Geometric Morphometric Data Augmentation using Generative Computational Learning Algorithms </b>
+<b> Courtenay (Submitted to Applied Sciences) Geometric Morphometric Data Augmentation using Generative Computational Learning Algorithms </b>
 
 ------------------------------------------------------------
 Comments, questions, doubts, suggestions and corrections can all be directed to L. A. Courtenay at the email provided above.
