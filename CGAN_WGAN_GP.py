@@ -9,8 +9,8 @@ from tensorflow import keras
 from tensorflow.keras import backend
 from tensorflow.keras.models import Model, Sequential
 from tensorflow.keras.layers import Dense, Reshape, Input, Concatenate
-from tensorflow.keras.layers import LeakyReLU, Dropout, Embedding
-from tensorflow.keras.layers import BatchNormalization, Activation
+from tensorflow.keras.layers import LeakyReLU, Dropout, Embedding, multiply
+from tensorflow.keras.layers import BatchNormalization, Activation, Flatten
 from tensorflow.keras.initializers import RandomNormal
 from tensorflow.keras.optimizers import Adam, RMSprop
 from tensorflow.keras.constraints import Constraint
@@ -244,6 +244,7 @@ g_model = define_generator(X, latent_dim, key)
 gan_model = define_gan(g_model, c_model, latent_dim)
 start_time = time.time()
 wass_train(g_model, c_model, gan_model, X,
-           latent_dim = latent_dim, key, y_values, n_epoch = n_epoch, n_batch = n_batch)
+           latent_dim = latent_dim, key = key,
+           y_values = y_values, n_epoch = n_epochs, n_batch = n_batch)
 end_time = time.time()
 print("train_discriminator time: %s" % (end_time - start_time))
