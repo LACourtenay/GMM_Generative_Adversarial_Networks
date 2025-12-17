@@ -56,3 +56,16 @@ For CGAN applications no prior scaling is needed, this function is included with
 
 For optimal results and to avoid errors, I strongly recomend loading these files in a software or text editor with debugging applications, such as Jupyter Notebook. If the analyst includes any other sub-directories within their main directory, or changes the name or format of any of the aforementioned files, then they will be required to modify the code provided to avoid errors.
 
+
+---------------------------------------------------------------------------------------------------
+
+## License
+
+This project is licensed under the GNU Affero General Public License v3.0.
+See the LICENSE file for details.
+
+<b> Copyright (C) 2020 Lloyd Courtenay </b>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, version 3.
